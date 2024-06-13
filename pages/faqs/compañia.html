@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Metadatos -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="../../images/logo-sinfondo.png">
+	<!-- Titulo -->
+	<title>Tu Buffet 32</title>
+	<!-- CSS -->
+	<link rel="stylesheet" href="../../style/style-faqs.css">
+	<link rel="stylesheet" href="../../style/style.css">
+	<!-- Footer -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+	<!-- Navbar -->
+	<div class="menu-bar">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container-fluid">
+				<a href="../../indexLogueadisimo.php">
+				<img src="../../images/logo-sinfondo.png" alt="Logo" width="70" height="70">
+				<a class="navbar-brand" href="../../indexLogueadisimo.php">TuBuffet32</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" data-bs-toggle="modal" data-bs-target="#modal_cart" style="color: white;">
+								<img src="../../images/car.svg" alt="carrito" width="30" height="30"></a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+							<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+								<li><a class="dropdown-item" href="#promos-container">Promos</a></li>
+								<li><a class="dropdown-item" href="#minutas-container">Minutas</a></li>
+								<li><a class="dropdown-item" href="#bebidas-container">Bebidas</a></li>
+								<li><a class="dropdown-item" href="#snacks-container">Snacks</a></li>
+								<li><a class="dropdown-item" href="#postres-container">Postres</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false"><img src="../../images/usuario.png" alt="Perfil"
+								width="30" height="30">
+							</a>
+							<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+								<li><a class="dropdown-item" href="../perfil/index.html">Cuenta</a></li>
+								<li><a class="dropdown-item" href="#">Configuracion</a></li>
+								<li><a class="dropdown-item" href="../../index.php">Cerrar sesion</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+
+	<main class="vh-100 bg-light d-flex align-items-center">
+		<section id="principal" class="h-75 container-sm mx-auto bg-light" style="max-width: 950px;">
+			<h1 class="fs-10 text-primary text-center py-5">FAQs de la Compañia</h1>
+
+			<!-- La primera categoria -->
+
+			<div class="accordion" id="accordion">
+
+				<div class="accordion-item my-4">
+					<h2 class="accordion-header" id="headingOne">
+						<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+							aria-expanded="true" aria-controls="collapseOne">
+							<span class="px-3 text-info">Nosotros</span>
+						</button>
+					</h2>
+					<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+						data-bs-parent="#accordion">
+						<div class="accordion-body">
+							<h2  >¿Quienes somos?</h2>
+							<div class="my-2">¡Saludos! Nos complace mucho presentarnos: somos Javier Rojas Liambo y Axel Fenoglio,
+								dos entusiastas estudiantes de 6°1° de computación.</div>
+
+							<div class="my-2">Estamos emocionados de presentarte nuestra nueva creación: una plataforma web diseñada
+								especialmente
+								para mejorar tu experiencia en el buffet de la prestigiosa Escuela Técnica N°32.</div>
+
+							<div class="my-2">Nuestra motivación para desarrollar esta página surge de un deseo compartido de
+								simplificar y enriquecer tu vida estudiantil.
+								Al utilizar nuestra plataforma, tendrás la oportunidad de disfrutar de una serie de beneficios y
+								comodidades que harán que tus compras sean más fáciles y gratificantes.</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- La segunda Categoria  -->
+
+				<div class="accordion-item my-4">
+					<h2 class="accordion-header" id="headingTwo">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							<span class="px-3 text-info">Nuestros Servicios</span>
+						</button>
+					</h2>
+					<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+						data-bs-parent="#accordion">
+						<div class="accordion-body">
+							<h2>¿Cúales son nuestros servicios?</h2>
+							<div class="my-2">"Estamos encantados de presentarte nuestra página web, diseñada para ofrecerte una
+								experiencia de compra única y conveniente.
+								Al utilizar nuestros servicios, disfrutarás de una serie de ventajas que mejorarán tu experiencia en el
+								buffet de la Escuela Técnica N°32.</div>
+
+							<div class="my-2">Una de las principales ventajas que obtendrás al usar esta página es la libertad de
+								realizar tus compras en el momento que mejor se adapte a tu horario.
+								Ya no tendrás que preocuparte por las restricciones de tiempo o las largas filas.
+								Ahora, podrás hacer tus pedidos desde la comodidad de tu hogar, la escuela o cualquier lugar que
+								prefieras, sin prisas y a tu propio ritmo.</div>
+
+							<div class="my-2">Además, te proporcionamos la información que necesitas al instante.
+								Con un simple clic, podrás acceder a la lista de precios actualizada de todos los productos disponibles en
+								el buffet.
+								Ya no tendrás que preguntar a cada momento por los precios o estar inseguro acerca de cuánto gastarás.
+								Te ofrecemos total transparencia y claridad para que puedas planificar tus compras de manera eficiente.
+							</div>
+
+							<div class="my-2">Nos enorgullecemos de brindarte una obtención de productos del buffet de manera ágil y
+								sencilla. Una vez que realices tus pedidos a través de nuestra plataforma,
+								nos encargaremos de prepararlos con todo el cuidado necesario.
+								Luego, podrás recoger tus productos de manera rápida y sin complicaciones, evitando cualquier tipo de
+								espera innecesaria.</div>
+
+							<div class="my-2">Nos esforzamos constantemente para mejorar y ofrecerte el mejor servicio posible.
+								Nuestra página web es intuitiva y fácil de usar, lo que te permitirá navegar sin dificultades y realizar
+								tus compras en pocos pasos.</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- La tercera categoria  -->
+
+				<div class="accordion-item my-4">
+					<h2 class="accordion-header" id="headingThree">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							<span class="px-3 text-info">Póliticas de Privacidad</span>
+						</button>
+					</h2>
+					<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+						data-bs-parent="#accordion">
+						<div class="accordion-body">
+							<h2>¿Cuales son las póliticas de privacidad?</h2>
+							<div class="my-2">"A pesar de que nuestra página web se encuentra en constante desarrollo, la cuestión de la
+								privacidad sigue siendo de máxima importancia para nosotros.
+								Nuestra principal premisa, y a la cual nos comprometemos firmemente, es que ningún usuario pueda realizar
+								ninguna compra sin obtener previamente su expreso permiso.
+								Creemos en la transparencia y en el respeto hacia los datos personales de nuestros clientes, por lo que
+								trabajamos diligentemente para garantizar un nivel óptimo de seguridad
+								y confidencialidad en cada paso de nuestro proceso.</div>
+
+							<div class="my-2">Sabemos lo valiosa que es tu información personal, y comprendemos la responsabilidad que
+								conlleva su gestión.
+								Por esta razón, aseguramos que toda tu data estará almacenada de manera segura en nuestra base de datos,
+								con las medidas de protección más avanzadas y rigurosas.
+								Nuestro equipo de expertos en seguridad informática se encarga de salvaguardar tus datos contra cualquier
+								intento de acceso no autorizado, y estamos en constante
+								mejora para adaptarnos a las últimas tecnologías y prácticas en el ámbito de la protección de datos.</div>
+
+							<div class="my-2">Entendemos que la confianza es la base de cualquier relación con nuestros clientes, y nos
+								esforzamos en fomentarla día tras día.
+								Estamos comprometidos en brindar una experiencia de usuario inigualable, sin comprometer la seguridad ni
+								la privacidad.
+								Por ello, si en algún momento deseas modificar o eliminar tu información personal de nuestra base de
+								datos, tendrás la posibilidad de hacerlo de manera sencilla y rápida,
+								respetando siempre tu derecho a tener el control sobre tus datos.</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- La cuarta categoria  -->
+
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="heading4">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+							<span class="px-3 text-info">Afiliate</span>
+						</button>
+					</h2>
+					<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="heading4"
+						data-bs-parent="#accordion">
+						<div class="accordion-body">
+							<h2>¿Como afiliarse?</h2>
+							<div class="my-2">Para formar parte de nuestra comunidad y ser afiliado a nuestro proyecto, es necesario
+								cumplir con ciertas especificaciones y pasar por un proceso de evaluación que asegure la calidad y el
+								compromiso de nuestros miembros.
+								Estamos encantados de que desees unirte a nosotros y, para comenzar el proceso, sigue atentamente los
+								siguientes pasos:
+
+								<div class="my-2">1. "Requisitos Iniciales": Antes de postularte, asegúrate de cumplir con los requisitos
+									iniciales. Entre ellos, se encuentran:
+									- Tener interés y pasión por el desarrollo web y las tecnologías de la información.
+									- Contar con habilidades y conocimientos básicos en desarrollo web. Queremos brindar oportunidades de
+									crecimiento, por lo que no es necesario ser un experto, ¡pero la pasión y el compromiso son
+									fundamentales!</div>
+								<div class="my-2">2. "Completar el Formulario de Afiliación": Para iniciar el proceso, te pedimos
+									completar un formulario de afiliación que hemos diseñado específicamente para conocer más acerca de tus
+									habilidades, intereses y motivaciones.
+									Este formulario nos permitirá entender cómo encajarías dentro del equipo y cómo podemos apoyar tu
+									crecimiento en el área.</div>
+
+								<div class="my-2">3. "Aprobación de los Fundadores": Una vez recibido el formulario, nuestros fundadores
+									Axel Fenoglio y Javier Rojas Liambo revisarán cuidadosamente tu perfil.
+									Buscamos personas con potencial, dedicación y un deseo genuino de crecer y contribuir al proyecto. La
+									decisión de la aprobación será tomada con un enfoque humano y considerando tus aptitudes.</div>
+
+								<div class="my-2">4. "Evaluación con el Profesor de Desarrollo de Sistemas": Si tu perfil es seleccionado
+									por los fundadores, tendrás la oportunidad de realizar una evaluación con nuestro profesor de desarrollo
+									de sistemas.
+									Esta etapa nos permitirá entender tu nivel de conocimientos técnicos y cómo podemos ayudarte a mejorar y
+									potenciar tus habilidades.</div>
+
+								<div class="my-2">5. "Envío de CV y Proyecto Personal": Junto con el formulario de afiliación, te pedimos
+									que nos envíes tu CV actualizado y un proyecto personal relacionado con el desarrollo web que hayas
+									realizado.
+									Queremos conocer tus experiencias previas y cómo te enfrentas a los desafíos técnicos.</div>
+
+								<div class="my-2">6. "Notificación de Resultados": Una vez completadas todas las etapas anteriores,
+									nuestro equipo revisará detenidamente toda la información proporcionada.
+									Después de unos días, te informaremos con sinceridad si has sido aceptado como parte de nuestro
+									proyecto. Si no eres seleccionado, no te desanimes, valoramos el esfuerzo y siempre alentamos a seguir
+									creciendo.
+									Habrá futuras oportunidades para colaborar.</div>
+
+								<div class="my-2">Recuerda que buscamos personas comprometidas y apasionadas, dispuestas a aprender y
+									compartir conocimientos en un ambiente de trabajo colaborativo.
+									Nuestro proyecto es una comunidad donde el respeto, la empatía y el crecimiento personal y profesional
+									son pilares fundamentales.</div>
+
+								<div class="my-2">Para iniciar tu proceso de afiliación, completa el formulario y envía tu CV junto con el
+									proyecto personal a la dirección de correo electrónico tubuffet32@gmail.com. Estamos emocionados por
+									conocer más acerca de ti y, ¡esperamos que te unas a nuestro equipo de desarrollo web!
+									Si tienes alguna pregunta o duda, no dudes en comunicarte con nosotros.</div>
+
+								<div class="my-2">Estamos aquí para apoyarte en todo el proceso y brindarte la mejor experiencia posible.
+								</div>
+
+								<div class="my-2">¡Gracias por tu interés en ser parte de nuestro proyecto y esperamos recibir tu
+									solicitud pronto!</div>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+
+		</section>
+
+	</main>
+
+	<!-- Información -->
+	<section class="info">
+
+		<div class="info-content container">
+			<div class="info-txt">
+				<p>Información</p>
+				<h2>Desarrolladores</h2>
+
+				<div class="info-sec">
+					<div class="info-1">
+						<img src="../../images/usuario.png" alt="usuario AF">
+						<div class="info-2">
+							<h3>Axel Joel Fenoglio</h3>
+							<p>
+								frontend y backend
+							</p>
+						</div>
+					</div>
+					<div class="info-1">
+						<img src="../../images/usuario.png" alt="usuario LR">
+						<div class="info-2">
+							<h3>Lucas Javier Rojas Liambo</h3>
+							<p>
+								frontend y backend
+							</p>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="info-img">
+				<img src="../../images/info.png" alt="">
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col">
+					<h4>Compañia</h4>
+					<ul>
+						<li><a href="compañia.html">Nosotros</a></li>
+						<li><a href="compañia.html">Nuestros Serviciós</a></li>
+						<li><a href="compañia.html">Póliticas De Privacidad</a></li>
+						<li><a href="compañia.html">Afiliate</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Ayuda</h4>
+					<ul>
+						<li><a href="ayuda.html">Preguntas</a></li>
+						<li><a href="ayuda.html">Compras</a></li>
+						<li><a href="ayuda.html">Estado de la Orden</a></li>
+						<li><a href="ayuda.html">Pago</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Productos</h4>
+					<ul>
+						<li><a href="productos.html">Minutas</a></li>
+						<li><a href="productos.html">Bebidas</a></li>
+						<li><a href="productos.html">Snacks</a></li>
+						<li><a href="productos.html">Postres</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Redes Sociales</h4>
+					<div class="social-links">
+						<a href="https://es-la.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+						<a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+						<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+						<a href="https://github.com/javierliambo/Rojas-Fenoglio-Desarrollo-Sistema.git"><i class="fab fa-github"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+   </footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+
+</html>

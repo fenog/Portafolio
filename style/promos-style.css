@@ -1,0 +1,24 @@
+
+.promos {
+	padding: 100px 15px 150px 15px;
+}
+
+.promos h1 {
+	font-size: 45px;
+    line-height: 60px;
+    font-weight: 800;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+
+.swiper-slide {
+	background-position: center;
+	background-size: cover;
+	width: 250px;
+}
+
+.swiper-slide img {
+	display: block;
+	width: 100%;
+}

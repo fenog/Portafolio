@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Metadatos -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="../../images/logo-sinfondo.png">
+	<!-- Titulo -->
+	<title>Tu Buffet 32</title>
+	<!-- CSS -->
+	<link rel="stylesheet" href="../../style/style-faqs.css">
+	<link rel="stylesheet" href="../../style/style.css">
+	<!-- Footer -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+	<!-- Navbar -->
+	<div class="menu-bar">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container-fluid">
+				<a href="../../indexLogueadisimo.php">
+				<img src="../../images/logo-sinfondo.png" alt="Logo" width="70" height="70">
+				<a class="navbar-brand" href="../../indexLogueadisimo.php">TuBuffet32</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" data-bs-toggle="modal" data-bs-target="#modal_cart" style="color: white;">
+								<img src="../../images/car.svg" alt="carrito" width="30" height="30"></a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+							<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+								<li><a class="dropdown-item" href="#promos-container">Promos</a></li>
+								<li><a class="dropdown-item" href="#minutas-container">Minutas</a></li>
+								<li><a class="dropdown-item" href="#bebidas-container">Bebidas</a></li>
+								<li><a class="dropdown-item" href="#snacks-container">Snacks</a></li>
+								<li><a class="dropdown-item" href="#postres-container">Postres</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false"><img src="../../images/usuario.png" alt="Perfil"
+								width="30" height="30">
+							</a>
+							<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+								<li><a class="dropdown-item" href="../perfil/index.html">Cuenta</a></li>
+								<li><a class="dropdown-item" href="#">Configuracion</a></li>
+								<li><a class="dropdown-item" href="../../index.php">Cerrar sesion</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+
+	<main class="vh-100 bg-light d-flex align-items-center">
+		<section id="principal" class="h-75 container-sm mx-auto bg-light" style="max-width: 950px;">
+			<h1 class="fs-10 text-primary text-center py-5">FAQs de los Productos</h1>
+
+			<!-- La primera categoria -->
+
+			<div class="accordion" id="accordion">
+
+				<div class="accordion-item my-4">
+					<h2 class="accordion-header" id="headingOne">
+						<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+							aria-expanded="true" aria-controls="collapseOne">
+							<span class="px-3 text-info">Minutas</span>
+						</button>
+					</h2>
+					<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+						data-bs-parent="#accordion">
+						<div class="accordion-body">
+							<h2>Si tienes una pregunta comenta aqui.</h2>
+							<div class="my-2">¡Saludos! Nos complace mucho presentarnos: somos Javier Rojas Liambo y Axel Fenoglio,
+								dos entusiastas estudiantes de 6°1° de computación.</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- La segunda Categoria  -->
+
+				<div class="accordion-item my-4">
+					<h2 class="accordion-header" id="headingTwo">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							<span class="px-3 text-info">Bebidas</span>
+						</button>
+					</h2>
+					<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+						data-bs-parent="#accordion">
+						<div class="accordion-body">
+							<h2>¿Como comprar?</h2>
+							<div class="my-2">"Estamos encantados de presentarte nuestra página web, diseñada para ofrecerte una
+								experiencia de compra única y conveniente.
+								Al utilizar nuestros servicios, disfrutarás de una serie de ventajas que mejorarán tu experiencia en el
+								buffet de la Escuela Técnica N°32.</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- La tercera categoria  -->
+
+				<div class="accordion-item my-4">
+					<h2 class="accordion-header" id="headingThree">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							<span class="px-3 text-info">Snacks</span>
+						</button>
+					</h2>
+					<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+						data-bs-parent="#accordion">
+						<div class="accordion-body">
+							<h2>¿Como va mi orden?</h2>
+							<div class="my-2">"A pesar de que nuestra página web se encuentra en constante desarrollo, la cuestión de la
+								privacidad sigue siendo de máxima importancia para nosotros.
+								Nuestra principal premisa, y a la cual nos comprometemos firmemente, es que ningún usuario pueda realizar
+								ninguna compra sin obtener previamente su expreso permiso.
+								Creemos en la transparencia y en el respeto hacia los datos personales de nuestros clientes, por lo que
+								trabajamos diligentemente para garantizar un nivel óptimo de seguridad
+								y confidencialidad en cada paso de nuestro proceso.</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- La cuarta categoria  -->
+
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="heading4">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+							<span class="px-3 text-info">Postres</span>
+						</button>
+					</h2>
+					<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="heading4"
+						data-bs-parent="#accordion">
+						<div class="accordion-body">
+							<h2>¿Como pago?</h2>
+							<div class="my-2">Para formar parte de nuestra comunidad y ser afiliado a nuestro proyecto, es necesario
+								cumplir con ciertas
+								especificaciones y pasar por un proceso de evaluación que asegure la calidad y el compromiso de nuestros
+								miembros.
+								Estamos encantados de que desees unirte a nosotros y, para comenzar el proceso, sigue atentamente los
+								siguientes pasos:</div>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+
+		</section>
+
+	</main>
+
+	<!-- Información -->
+	<section class="info">
+
+		<div class="info-content container">
+			<div class="info-txt">
+				<p>Información</p>
+				<h2>Desarrolladores</h2>
+
+				<div class="info-sec">
+					<div class="info-1">
+						<img src="../../images/usuario.png" alt="usuario AF">
+						<div class="info-2">
+							<h3>Axel Joel Fenoglio</h3>
+							<p>
+								frontend y backend
+							</p>
+						</div>
+					</div>
+					<div class="info-1">
+						<img src="../../images/usuario.png" alt="usuario LR">
+						<div class="info-2">
+							<h3>Lucas Javier Rojas Liambo</h3>
+							<p>
+								frontend y backend
+							</p>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="info-img">
+				<img src="../../images/info.png" alt="">
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col">
+					<h4>Compañia</h4>
+					<ul>
+						<li><a href="compañia.html">Nosotros</a></li>
+						<li><a href="compañia.html">Nuestros Serviciós</a></li>
+						<li><a href="compañia.html">Póliticas De Privacidad</a></li>
+						<li><a href="compañia.html">Afiliate</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Ayuda</h4>
+					<ul>
+						<li><a href="ayuda.html">Preguntas</a></li>
+						<li><a href="ayuda.html">Compras</a></li>
+						<li><a href="ayuda.html">Estado de la Orden</a></li>
+						<li><a href="ayuda.html">Pago</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Productos</h4>
+					<ul>
+						<li><a href="productos.html">Minutas</a></li>
+						<li><a href="productos.html">Bebidas</a></li>
+						<li><a href="productos.html">Snacks</a></li>
+						<li><a href="productos.html">Postres</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>Redes Sociales</h4>
+					<div class="social-links">
+						<a href="https://es-la.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+						<a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+						<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+						<a href="https://github.com/javierliambo/Rojas-Fenoglio-Desarrollo-Sistema.git"><i class="fab fa-github"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+   </footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+
+</html>
